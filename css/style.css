@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.subScreen {
+    cursor: pointer;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio {
+    position: relative;
+
+}
+
+.ajustes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#area1 {
+    background-color: rgb(36, 36, 36);
+}
+
+#area2 {
+    background-color: rgb(36, 36, 36);
+}
+
+#area3 {
+    background-color: rgb(36, 36, 36);
+}
+
+#area4 {
+    background-color: rgb(36, 36, 36);
+}
+
+#area5 {
+    background-color: rgb(36, 36, 36);
+}
+
+#area6 {
+    background-color: rgb(36, 36, 36);
+}
+
+
+/*ROOSERT OF PLAYERS LAYOUT*/
+
+.subAjustes {
+    height: 100%;
+    width: 85%;
+}
+
+.caras {
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carasFuera {
+    height: 10%;
+}
+
+.carasDentro {
+    height: 90%;
+    display: flex;
+}
+
+.pers {
+    position: relative;
+    cursor: pointer;
+}
+
+img {
+    height: 300px;
+    width: 170px;
+}
+
+.perssel {
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.perssel2 {
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.j1l {
+    color: #ff0000;
+    text-align: left;
+    font-size: 16px;
+    margin-right: 44px;
+    margin-left: 18px;
+}
+
+.magia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juegaIzq {
+    position: relative;
+    margin-left: 275px;
+}
+
+/* 
+.p1f1 {
+    position: relative;
+    width: 220px;
+    height: 200px;    
+}
+
+.p1f2 {
+    position: relative;
+    width: 220px;
+    height: 200px;
+}
+
+.p1f3 {
+    position: relative;
+    width: 220px;
+    height: 200px;
+}
+
+.p2f1 {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    
+}
+
+.p2f2 {
+    position: relative;
+    width: 220px;
+    height: 200px;
+}
+
+.p2f3 {
+    position: relative;
+    width: 220px;
+    height: 200px;
+} */
+
+.juegaDer {
+    position: relative;
+    margin-right: 250px;
+}
+
+.nombre {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.mensaje1 {
+    color: #ff0000;
+    text-align: center;
+    height: 15%;
+    font-size: 24px;
+}
+
+/*PREFIGHT LAYOUT*/
+
+.preGanador {
+    width: 75%;
+    height: 100%;
+}
+
+.preparado {
+
+    height: 14%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.preparado1 {
+
+    height: 25%;
+
+}
+
+.preparado2 {
+
+    height: 70%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.espera {
+
+    height: 86%;
+
+}
+
+.esperaDentro {
+
+    height: 80%;
+    width: 100%;
+
+}
+
+.preRonda0 {
+
+    color: #ff0000;
+    text-align: center;
+    font-size: 25px;
+}
+
+.preRonda1 {
+    height: 33%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 45px;
+
+}
+
+/*FIGHT LAYOUT*/
+
+.prePelea {
+    display: flex;
+    height: 10%;
+
+}
+
+.prePelea1 {
+    position: relative;
+    width: 35%;
+    height: 100%;
+
+}
+
+.prePelea2 {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.prePelea3 {
+    position: relative;
+    width: 35%;
+    height: 100%;
+
+}
+
+
+.pelea {
+    height: 60%;
+
+    display: flex;
+}
+
+.primero {
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+
+.aspirante1 {
+    height: 10%;
+    width: 100%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.aspirante1img {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.asp1vida {
+    height: 20%;
+    width: 100%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.segundo {
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+
+.aspirante2 {
+    height: 10%;
+    width: 100%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.laspirante2img {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.asp2vida {
+    height: 20%;
+    width: 100%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.resolucion {
+    display: flex;
+    height: 10%;
+}
+
+.ress1 {
+    position: relative;
+    width: 25%;
+
+}
+
+.ress2 {
+    position: relative;
+    width: 50%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.ress3 {
+    position: relative;
+    width: 25%;
+
+}
+
+.golpeador {
+    display: flex;
+    height: 20%;
+}
+
+.golp1 {
+    position: relative;
+    width: 25%;
+
+}
+
+.golp2 {
+    position: relative;
+    width: 50%;
+
+    text-align: center;
+}
+
+.golp3 {
+    position: relative;
+    width: 25%;
+
+}
+
+.dolor {
+    cursor: pointer;
+}
+
+#duele:active {
+    filter: invert(40%);
+}
+
+/*WINNER ANNOUNCEMENTS*/
+
+.winner {
+    position: relative;
+    height: 100%;
+    width: 80%;
+}
+
+.winnerTeam {
+    height: 10%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.winInfo {
+    height: 80%;
+}
+
+.jugadorWinInfo {
+    height: 15%;
+    color: #ff0000;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.infoExtra {
+    height: 85%;
+}
+
+/*winner phase items*/
+
+.imgGanadora {
+    height: 40%;
+    text-align: center;
+}
+
+.logoGanador {
+    height: 30%;
+    text-align: center;
+}
+
+.elixir {
+    height: 20%;
+
+}
+
+.margenGanador {
+    height: 10%;
+}
+
+.otra {
+    cursor: pointer;
+    color: #ff0000;
+    text-align: center;
+    font-size: 28px;
+}
