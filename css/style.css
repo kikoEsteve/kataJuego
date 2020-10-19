@@ -53,7 +53,7 @@
 }
 
 
-/*ROOSERT OF PLAYERS LAYOUT*/
+
 
 .subAjustes {
     height: 100%;
@@ -117,43 +117,43 @@ img {
     margin-left: 275px;
 }
 
-/* 
-.p1f1 {
-    position: relative;
-    width: 220px;
-    height: 200px;    
-}
 
-.p1f2 {
+.j1l1 {
     position: relative;
     width: 220px;
     height: 200px;
 }
 
-.p1f3 {
+.j1l2 {
     position: relative;
     width: 220px;
     height: 200px;
 }
 
-.p2f1 {
-    position: relative;
-    width: 220px;
-    height: 200px;
-    
-}
-
-.p2f2 {
+.j1l3 {
     position: relative;
     width: 220px;
     height: 200px;
 }
 
-.p2f3 {
+.j2l1 {
     position: relative;
     width: 220px;
     height: 200px;
-} */
+
+}
+
+.j2l2 {
+    position: relative;
+    width: 220px;
+    height: 200px;
+}
+
+.j2l3 {
+    position: relative;
+    width: 220px;
+    height: 200px;
+}
 
 .juegaDer {
     position: relative;
@@ -172,8 +172,6 @@ img {
     height: 15%;
     font-size: 24px;
 }
-
-/*PREFIGHT LAYOUT*/
 
 .preGanador {
     width: 75%;
@@ -231,8 +229,6 @@ img {
     font-size: 45px;
 
 }
-
-/*FIGHT LAYOUT*/
 
 .prePelea {
     display: flex;
@@ -394,8 +390,6 @@ img {
     filter: invert(40%);
 }
 
-/*WINNER ANNOUNCEMENTS*/
-
 .winner {
     position: relative;
     height: 100%;
@@ -426,8 +420,6 @@ img {
 .infoExtra {
     height: 85%;
 }
-
-/*winner phase items*/
 
 .imgGanadora {
     height: 40%;

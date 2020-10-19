@@ -17,7 +17,6 @@ let partida = {
         if (this.equipo1.length < 4) {
             document.getElementById(idluchador).className = "perssel";
             document.getElementById(idluchador).onclick = "";
-            console.log(idluchador);
         }
         for (let _x = 0; _x < this.equipo1.length; _x++) {
             this.info_lucha = document.getElementById("j1t" + _x);
@@ -82,22 +81,22 @@ let partida = {
                 </div>
                 <div class="carasDentro">
                     <div class="pers"></div>
-                    <div class="pers"><img src="/img/${this.equipo2posibles[0].Nombre}.png" alt="" id="11" onclick="partida.elige2(0,11)">
+                    <div class="pers"><img src="img/${this.equipo2posibles[0].Nombre}.png" alt="" id="11" onclick="partida.elige2(0,11)">
                         <div class="nombre">${this.equipo2posibles[0].Nombre}</div>
                     </div>
-                    <div class="pers"><img src="/img/${this.equipo2posibles[1].Nombre}.png" alt="" id="12" onclick="partida.elige2(1,12)">
+                    <div class="pers"><img src="img/${this.equipo2posibles[1].Nombre}.png" alt="" id="12" onclick="partida.elige2(1,12)">
                         <div class="nombre">${this.equipo2posibles[1].Nombre}</div>
                     </div>
-                    <div class="pers"><img src="/img/${this.equipo2posibles[2].Nombre}.png" alt="" id="13" onclick="partida.elige2(2,13)">
+                    <div class="pers"><img src="img/${this.equipo2posibles[2].Nombre}.png" alt="" id="13" onclick="partida.elige2(2,13)">
                         <div class="nombre">${this.equipo2posibles[2].Nombre}</div>
                     </div>
-                    <div class="pers"><img src="/img/${this.equipo2posibles[3].Nombre}.png" alt="" id="14" onclick="partida.elige2(3,14)">
+                    <div class="pers"><img src="img/${this.equipo2posibles[3].Nombre}.png" alt="" id="14" onclick="partida.elige2(3,14)">
                         <div class="nombre">${this.equipo2posibles[3].Nombre}</div>
                     </div>
-                    <div class="pers"><img src="/img/${this.equipo2posibles[4].Nombre}.png" alt="" id="15" onclick="partida.elige2(4,15)">
+                    <div class="pers"><img src="img/${this.equipo2posibles[4].Nombre}.png" alt="" id="15" onclick="partida.elige2(4,15)">
                         <div class="nombre">${this.equipo2posibles[4].Nombre}</div>
                     </div>
-                    <div class="pers"><img src="/img/${this.equipo2posibles[5].Nombre}.png" alt="" id="16" onclick="partida.elige2(5,16)">
+                    <div class="pers"><img src="img/${this.equipo2posibles[5].Nombre}.png" alt="" id="16" onclick="partida.elige2(5,16)">
                         <div class="nombre">${this.equipo2posibles[5].Nombre}</div>
                     </div>
                     <div class="pers"></div>
@@ -130,15 +129,15 @@ let partida = {
                 <div class="esperaDentro">
                     <div class="preRonda0"></div>
                     <div class="preRonda1">
-                        <img src="/img/${this.equipo1[0].Nombre}.png" alt=""> VS
-                        <img src="/img/${this.equipo2[0].Nombre}.png" alt="">
+                        <img src="img/${this.equipo1[0].Nombre}.png" alt=""> VS
+                        <img src="img/${this.equipo2[0].Nombre}.png" alt="">
                     </div>
 
                     <div class="preRonda0"></div>
 
                     <div class="preRonda1">
-                        <img src="/img/${this.equipo1[1].Nombre}.png" alt=""> VS
-                        <img src="/img/${this.equipo2[1].Nombre}.png" alt="">
+                        <img src="img/${this.equipo1[1].Nombre}.png" alt=""> VS
+                        <img src="img/${this.equipo2[1].Nombre}.png" alt="">
                     </div>
                 </div>
             </div>
@@ -165,12 +164,12 @@ let partida = {
             <div class="pelea">
                 <div class="primero">
                     <div class="aspirante1">${this.equipo1[this.cont_lucha].Nombre}</div>
-                    <div class="aspirante1img"><img src="/img/${this.equipo1[this.cont_lucha].Nombre}.png"></div>
+                    <div class="aspirante1img"><img src="img/${this.equipo1[this.cont_lucha].Nombre}.png"></div>
                     <div id="arena1" class="asp1vida">JUGADOR 1 VIDA : ${this.equipo1[this.cont_lucha].Vida}</div>
                 </div>
             <div class="segundo">
                 <div class="aspirante2">${this.equipo2[this.cont_lucha].Nombre}</div>
-                <div class="aspirante2img"><img src="/img/${this.equipo2[this.cont_lucha].Nombre}.png"></div>
+                <div class="aspirante2img"><img src="img/${this.equipo2[this.cont_lucha].Nombre}.png"></div>
                 <div id="arena2" class="asp2vida">JUGADOR 2 VIDA : ${this.equipo2[this.cont_lucha].Vida}</div>
             </div>
         </div>
@@ -181,7 +180,7 @@ let partida = {
             </div>
             <div class="golpeador">
                 <div class="golp1"></div>
-                <div class="golp2"><img id="duele" class="dolor" src="/img/g22.png" onclick="juego.mainFight(argumento1, argumento2)"></div> 
+                <div class="golp2"><img id="duele" class="dolor" src="img/g22.png" onclick="juego.mainFight(argumento1, argumento2)"></div> 
                 <div class="golp3"></div>
             </div>
         </div>`;
@@ -215,10 +214,10 @@ let partida = {
                 <div class="winInfo">
                     <div class="jugadorWinInfo">JUGADOR ${endA} GANA ${endB} COMBATES DE 2</div>
                     <div class="infoExtra">
-                        <div class="imgGanadora"><img src="/img/${win[0].Nombre}.png" alt="">
-                        <img src="/img/${win[1].Nombre}.png" alt="">
-                        <img src="/img/${win[2].Nombre}.png" alt=""></div>
-                        <div class="logoGanador"><img src="/img/winner.png"></div>
+                        <div class="imgGanadora"><img src="img/${win[0].Nombre}.png" alt="">
+                        <img src="img/${win[1].Nombre}.png" alt="">
+                        <img src="img/${win[2].Nombre}.png" alt=""></div>
+                        <div class="logoGanador"><img src="img/winner.png"></div>
                         <div class="elixir"><p class="otra" onclick="partida.entrada1()">JUGAMOS DE NUEVO?</p></div>
                         <div class="margenGanador"></div>
                     </div>
